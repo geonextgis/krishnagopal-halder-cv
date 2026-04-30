@@ -10,7 +10,7 @@ description: Krishnagopal Halder, Research Scientist at the Leibniz Centre for A
 :::{grid-item}
 :columns: 12 12 4 4
 
-```{image} logo.png
+```{image} professional-dp.png
 :alt: Krishnagopal Halder
 :width: 95%
 ```
@@ -22,21 +22,21 @@ description: Krishnagopal Halder, Research Scientist at the Leibniz Centre for A
 
 **Research Scientist**
 
-Working Group Multi-Scale Modelling and Forecasting (MSM),
+Multi-Scale Modelling and Forecasting (MSM),
 [Leibniz Centre for Agricultural Landscape Research (ZALF)](https://www.zalf.de)
 
 Eberswalder Str. 84, 15374 Müncheberg, Brandenburg, Germany
 
 [Krishnagopal.Halder@zalf.de](mailto:Krishnagopal.Halder@zalf.de) | +49 155 10743904
 
-**Research Interests:** Geospatial Data Science, Machine Learning & Deep Learning, Crop Yield Forecasting, Earth Observation, Agricultural Sustainability
+**Research Interests:** GeoAI, Machine Learning, Deep Learning, Remote Sensing, Agriculture
 
 [CV (PDF)](cv.pdf) |
-[Google Scholar](https://scholar.google.com) |
-[ORCID](https://orcid.org/0000-0000-0000-0000) |
-[LinkedIn](https://www.linkedin.com/in/username) |
-[GitHub](https://github.com/username) |
-[Medium](https://medium.com/@username)
+[Google Scholar](https://scholar.google.com/citations?user=b02pfFMAAAAJ&hl=en) |
+[ORCID](https://orcid.org/0009-0005-9815-3017) |
+[LinkedIn](https://www.linkedin.com/in/krishnagopal-halder) |
+[GitHub](https://github.com/geonextgis) |
+[Medium](https://medium.com/@geonextgis)
 
 :::
 ::::
@@ -47,19 +47,14 @@ Eberswalder Str. 84, 15374 Müncheberg, Brandenburg, Germany
 
 ::::{grid} 1 2 3 3
 
-:::{card} LL SYSTAIN
-:link: https://www.zalf.de
-Leibniz-Lab Systemic Sustainability — Biodiversity, Climate, Agriculture and Food within Planetary Boundaries. Funded by Leibniz Association.
+:::{card} torchcrop
+:link: https://geonextgis.github.io/torchcrop/
+A PyTorch-native library for hybrid crop modeling.
 :::
 
-:::{card} SynPAI
-:link: https://www.zalf.de
-Synergising Process-Based and Machine Learning Models for Accurate and Explainable Crop Yield Prediction. Funded by BBSRC.
-:::
-
-:::{card} AgML
-:link: https://www.agml.org
-Machine Learning for Agricultural Modelling — open community initiative.
+:::{card} geeagri
+:link: https://geonextgis.github.io/geeagri
+Python tools for agricultural analysis powered by Google Earth Engine.
 :::
 
 ::::
@@ -72,7 +67,7 @@ Machine Learning for Agricultural Modelling — open community initiative.
 
 :::{card} Publications 📚
 :link: pages/research
-11 Refereed Publications
+11+ Refereed Publications
 :::
 
 :::{card} Software 💻
