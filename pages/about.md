@@ -22,17 +22,17 @@ Krishnagopal Halder is a Research Scientist in the Working Group Multi-Scale Mod
 | Jul 2024 – Dec 2024 | **M.Tech.** in Disaster Mitigation and Management | IIT Roorkee, India | *Dropout* |
 | Nov 2022 – Jul 2024 | **M.Sc.** in Remote Sensing and GIS | Vidyasagar University, India | *CGPA: 9.04/10.00* |
 | Jun 2019 – Aug 2022 | **B.Sc.** in Geography | Bankura Christian College, India | *CGPA: 9.33/10.00* |
-| Jun 2017 – Mar 2019 | **HSC** (12th Grade) | Bankura Zilla School, India | *Grade: 95.80%* |
-| Apr 2016 – Feb 2017 | **SSC** (10th Grade) | Bankura Christian Collegiate School, India | *Grade: 90.43%* |
+| 2019 | **HSC** (12th Grade) | Bankura Zilla School, India | *Grade: 95.80%* |
+| 2017 | **SSC** (10th Grade) | Bankura Christian Collegiate School, India | *Grade: 90.43%* |
 
 ---
 
 ## Appointments
 
-| Period | Position | Institution |
-|--------|----------|-------------|
-| Jan 2025 – Present | Research Scientist | Leibniz Centre for Agricultural Landscape Research (ZALF), Germany |
-| Feb 2023 – Feb 2024 | Remote Intern | Institute of Crop Science and Resource Conservation (INRES), University of Bonn, Germany |
+| Period | Position |
+|--------|----------|
+| Jan 2025 – Present | Research Scientist, Leibniz Centre for Agricultural Landscape Research (ZALF), Germany |
+| Feb 2023 – Feb 2024 | Remote Intern, Institute of Crop Science and Resource Conservation (INRES), University of Bonn, Germany |
 
 ---
 

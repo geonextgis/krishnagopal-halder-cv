@@ -248,13 +248,13 @@ def gen_preamble():
     lastname: "Halder",
     email: "Krishnagopal.Halder@zalf.de",
     phone: "(+49) 155-10743904",
-    homepage: "https://geonextgis.github.io/krishnagopal-halder-cv/",
     github: "geonextgis",
     address: "Karl-Marx-Straße 11, 15374 Müncheberg, Germany",
     positions: (
       "Research Scientist",
     ),
     custom: (
+      (text: "Krishnagopal Halder", icon: "homepage", link: "https://geonextgis.github.io/krishnagopal-halder-cv/"),
       (text: "Krishnagopal Halder", icon: "linkedin", link: "https://www.linkedin.com/in/krishnagopal-halder"),
       (text: "Krishnagopal Halder", icon: "google-scholar", link: "https://scholar.google.de/citations?user=b02pfFMAAAAJ&hl=en"),
       (text: "0009-0005-9815-3017", icon: "orcid", link: "https://orcid.org/0009-0005-9815-3017"),
