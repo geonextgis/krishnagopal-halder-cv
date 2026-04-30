@@ -244,22 +244,20 @@ def gen_preamble():
 
 #show: resume.with(
   author: (
-    firstname: "Jane",
-    lastname: "Doe",
-    email: "jane.doe@example.com",
-    phone: "(+1) 234-567-8901",
-    homepage: "https://example.com",
-    github: "username",
-    address: "123 Science Building, Example University, Anytown, ST 12345",
+    firstname: "Krishnagopal",
+    lastname: "Halder",
+    email: "Krishnagopal.Halder@zalf.de",
+    phone: "(+49) 155-10743904",
+    homepage: "https://geonextgis.github.io/krishnagopal-halder-cv/",
+    github: "geonextgis",
+    address: "Karl-Marx-Straße 11, 15374 Müncheberg, Germany",
     positions: (
-      "Assistant Professor",
-      "Data Scientist",
+      "Research Scientist",
     ),
     custom: (
-      (text: "username", icon: "twitter", link: "https://twitter.com/username"),
-      (text: "Jane Doe", icon: "linkedin", link: "https://www.linkedin.com/in/username"),
-      (text: "Jane Doe", icon: "google-scholar", link: "https://scholar.google.com"),
-      (text: "0000-0000-0000-0000", icon: "orcid", link: "https://orcid.org/0000-0000-0000-0000"),
+      (text: "Krishnagopal Halder", icon: "linkedin", link: "https://www.linkedin.com/in/krishnagopal-halder"),
+      (text: "Krishnagopal Halder", icon: "google-scholar", link: "https://scholar.google.de/citations?user=b02pfFMAAAAJ&hl=en"),
+      (text: "0009-0005-9815-3017", icon: "orcid", link: "https://orcid.org/0009-0005-9815-3017"),
     ),
   ),
   profile-picture: none,
@@ -275,7 +273,7 @@ def gen_preamble():
 #set heading(bookmarked: true)
 
 // Set PDF document title
-#set document(title: "Jane Doe - CV")"""
+#set document(title: "Krishnagopal Halder - CV")"""
 
 
 def gen_education(about):

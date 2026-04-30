@@ -1,6 +1,6 @@
 ---
 title: About
-description: Biography, education, and academic appointments of Jane Doe.
+description: Biography, education, and academic appointments of Krishnagopal Halder.
 keywords:
   - About
   - Biography
@@ -10,7 +10,7 @@ keywords:
 
 # About
 
-Dr. Jane Doe is an Assistant Professor in the Department of Computer Science at Example University. Her research focuses on developing open-source tools for data science and machine learning. She is the creator and maintainer of several widely used open-source Python packages. Dr. Doe's work bridges software engineering, data science, and artificial intelligence to make large-scale data analytics more accessible, reproducible, and intelligent.
+Dr. Krishnagopal Halder is an Assistant Professor in the Department of Computer Science at Example University. Her research focuses on developing open-source tools for data science and machine learning. She is the creator and maintainer of several widely used open-source Python packages. Dr. Doe's work bridges software engineering, data science, and artificial intelligence to make large-scale data analytics more accessible, reproducible, and intelligent.
 
 ---
 

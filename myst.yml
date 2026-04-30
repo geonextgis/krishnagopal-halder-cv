@@ -1,10 +1,10 @@
 version: 1
 project:
-  title: Jane Doe
-  description: Personal website of Jane Doe, Assistant Professor at Example University, building open-source tools for data science.
+  title: Krishnagopal Halder
+  description: Personal website of Krishnagopal Halder, Assistant Professor at Example University, building open-source tools for data science.
   # thumbnail: images/profile-thumbnail.webp
   # authors:
-  #   - name: Jane Doe
+  #   - name: Krishnagopal Halder
   #     email: jane.doe@example.com
   #     orcid: 0000-0000-0000-0000
   #     url: https://example.com

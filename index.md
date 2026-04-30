@@ -1,7 +1,7 @@
 ---
-title: Jane Doe
+title: Krishnagopal Halder
 subtitle: Open-Source Software Engineer & Data Scientist
-description: Jane Doe, Assistant Professor at Example University, builds open-source tools for data science and machine learning.
+description: Krishnagopal Halder, Assistant Professor at Example University, builds open-source tools for data science and machine learning.
 # thumbnail: images/profile-thumbnail.webp
 ---
 
@@ -11,7 +11,7 @@ description: Jane Doe, Assistant Professor at Example University, builds open-so
 :columns: 12 12 4 4
 
 ```{image} logo.png
-:alt: Jane Doe
+:alt: Krishnagopal Halder
 :width: 95%
 ```
 
