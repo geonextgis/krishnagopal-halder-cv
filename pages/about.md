@@ -17,7 +17,7 @@ Krishnagopal Halder is a Research Scientist in the Working Group Multi-Scale Mod
 
 ## Education
 
-| Year | Degree | Institution | Dissertation/Thesis |
+| Year | Degree | Institution | Grade |
 |------|--------|-------------|---------------------|
 | Jul 2024 – Dec 2024 | **M.Tech.** in Disaster Mitigation and Management | IIT Roorkee, India | *Dropout* |
 | Nov 2022 – Jul 2024 | **M.Sc.** in Remote Sensing and GIS | Vidyasagar University, India | *CGPA: 9.04/10.00* |
