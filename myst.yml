@@ -12,12 +12,11 @@ project:
   #       - Leibniz Centre for Agricultural Landscape Research (ZALF)
   copyright: '2026'
   keywords:
-    - Geospatial Data Science
+    - GeoAI
     - Machine Learning
     - Deep Learning
-    - Crop Yield Forecasting
-    - Earth Observation
-    - Agricultural Sustainability
+    - Remote Sensing
+    - Agriculture
   # github: username/repo
   exclude:
     - _build
