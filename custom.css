@@ -1,109 +1,20 @@
-/* ============================================================
-   Krishnagopal Halder — Personal site styling
-   ============================================================ */
-
-:root {
-  --kh-accent: #2e7d32;          /* leaf green */
-  --kh-accent-dark: #1b5e20;
-  --kh-soft: #f4f7f4;
-  --kh-muted: #5b6b5e;
-  --kh-card-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
-  --kh-card-shadow-hover: 0 8px 22px rgba(0, 0, 0, 0.10);
-}
-
-/* ---------- Hide MyST default download dropdown ---------- */
 .myst-fm-downloads-dropdown {
   display: none !important;
 }
 
-/* ---------- Tables ---------- */
 table td:first-child,
 table th:first-child {
   white-space: nowrap;
 }
 
-table {
-  border-collapse: collapse;
-  margin: 0.5rem 0 1.25rem;
+#giscus-comments {
+  max-width: 100% !important;
+  padding: 0 !important;
 }
 
-table th {
-  background: var(--kh-soft);
-  font-weight: 600;
-}
-
-table tr:nth-child(even) td {
-  background: rgba(244, 247, 244, 0.4);
-}
-
-/* ---------- Profile / hero image ---------- */
-.myst-grid-item img[alt="Krishnagopal Halder"] {
-  border-radius: 14px;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
-  border: 4px solid #fff;
-  outline: 1px solid rgba(0, 0, 0, 0.05);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
-
-.myst-grid-item img[alt="Krishnagopal Halder"]:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.16);
-}
-
-/* ---------- Hero text emphasis ---------- */
-.myst-grid > .myst-grid-item:last-child > p:first-of-type strong {
-  font-size: 1.25rem;
-  color: var(--kh-accent-dark);
-  letter-spacing: 0.01em;
-}
-
-/* ---------- Section headings ---------- */
-h2 {
-  position: relative;
-  padding-bottom: 0.35rem;
-  margin-top: 2rem;
-}
-
-h2::after {
-  content: "";
-  display: block;
-  width: 56px;
-  height: 3px;
-  background: var(--kh-accent);
-  border-radius: 2px;
-  margin-top: 0.4rem;
-}
-
-/* ---------- Cards (general lift / hover) ---------- */
-.myst-card {
-  border-radius: 12px;
-  box-shadow: var(--kh-card-shadow);
-  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
-  overflow: hidden;
-}
-
-.myst-card:hover {
-  transform: translateY(-3px);
-  box-shadow: var(--kh-card-shadow-hover);
-  border-color: var(--kh-accent) !important;
-}
-
-/* ---------- Featured Projects cards ---------- */
-#featured-projects + .myst-grid .myst-card {
-  text-align: center;
-}
-
-#featured-projects + .myst-grid .myst-card-header {
-  background: linear-gradient(135deg, #e8f5e9 0%, #f1f8e9 100%);
-  font-weight: 700;
-  font-size: 1.05rem;
-  color: var(--kh-accent-dark);
-  border-bottom: 1px solid rgba(46, 125, 50, 0.15);
-}
-
-#featured-projects + .myst-grid .myst-card-body {
-  color: var(--kh-muted);
-  padding: 1rem !important;
+.giscus,
+.giscus-frame {
+  width: 100% !important;
 }
 
 #featured-projects + .myst-grid .myst-card-footer,
@@ -160,55 +71,6 @@ h2::after {
   margin-bottom: 0.25rem !important;
 }
 
-/* ---------- Highlights cards ---------- */
-#highlights + .myst-grid .myst-card {
-  text-align: center;
-  background: linear-gradient(180deg, #ffffff 0%, var(--kh-soft) 100%);
-}
-
-#highlights + .myst-grid .myst-card-header {
-  font-weight: 700;
-  font-size: 1.05rem;
-  background: transparent;
-  border-bottom: none;
-  padding-bottom: 0.25rem !important;
-}
-
-#highlights + .myst-grid .myst-card-body {
-  font-size: 0.95rem;
-  color: var(--kh-muted);
-  padding-top: 0.25rem !important;
-}
-
-/* ---------- Recent News bullet list (timeline-ish) ---------- */
-#recent-news + ul {
-  list-style: none;
-  padding-left: 0;
-  border-left: 3px solid var(--kh-accent);
-  margin-left: 0.4rem;
-  padding-left: 1.1rem;
-}
-
-#recent-news + ul li {
-  position: relative;
-  padding: 0.4rem 0;
-  margin-bottom: 0.2rem;
-}
-
-#recent-news + ul li::before {
-  content: "";
-  position: absolute;
-  left: -1.43rem;
-  top: 0.85rem;
-  width: 10px;
-  height: 10px;
-  background: var(--kh-accent);
-  border: 2px solid #fff;
-  border-radius: 50%;
-  box-shadow: 0 0 0 1px var(--kh-accent);
-}
-
-/* ---------- Blog post grid (kept from template) ---------- */
 #posts ~ .myst-grid .myst-card-header,
 #posts ~ * .myst-grid .myst-card-header {
   padding: 0.5rem !important;
@@ -223,37 +85,4 @@ h2::after {
   margin: 0 !important;
   border: 1px solid rgba(128, 128, 128, 0.3);
   border-radius: 4px;
-}
-
-/* ---------- Giscus comments ---------- */
-#giscus-comments {
-  max-width: 100% !important;
-  padding: 0 !important;
-}
-
-.giscus,
-.giscus-frame {
-  width: 100% !important;
-}
-
-/* ---------- Dropdowns (publications, news years) ---------- */
-details.myst-dropdown,
-.myst-details {
-  border-radius: 10px;
-  border: 1px solid rgba(46, 125, 50, 0.15);
-  margin-bottom: 0.6rem;
-  overflow: hidden;
-}
-
-details.myst-dropdown > summary,
-.myst-details > summary {
-  background: var(--kh-soft);
-  padding: 0.55rem 0.9rem;
-  font-weight: 600;
-  cursor: pointer;
-}
-
-details[open].myst-dropdown > summary,
-.myst-details[open] > summary {
-  border-bottom: 1px solid rgba(46, 125, 50, 0.15);
 }
