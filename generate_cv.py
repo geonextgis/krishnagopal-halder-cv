@@ -254,7 +254,7 @@ def gen_preamble():
       "Research Scientist",
     ),
     custom: (
-      (text: "Krishnagopal Halder", icon: "homepage", link: "https://geonextgis.github.io/krishnagopal-halder-cv/"),
+      (text: "Krishnagopal Halder", icon: "house", link: "https://geonextgis.github.io/krishnagopal-halder-cv/"),
       (text: "Krishnagopal Halder", icon: "linkedin", link: "https://www.linkedin.com/in/krishnagopal-halder"),
       (text: "Krishnagopal Halder", icon: "google-scholar", link: "https://scholar.google.de/citations?user=b02pfFMAAAAJ&hl=en"),
       (text: "0009-0005-9815-3017", icon: "orcid", link: "https://orcid.org/0009-0005-9815-3017"),
