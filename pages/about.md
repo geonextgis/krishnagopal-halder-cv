@@ -17,14 +17,6 @@ Krishnagopal Halder is a Research Scientist in the Working Group Multi-Scale Mod
 
 ## Education
 
-| Year | Degree | Institution |
-|------|--------|-------------|
-| Jul 2024 – Dec 2024 | M.Tech. in Disaster Mitigation and Management (Dropout) | Indian Institute of Technology Roorkee, India |
-| Nov 2022 – Jul 2024 | M.Sc. in Remote Sensing and GIS; CGPA: 9.04/10.00 | Vidyasagar University, Midnapore, West Bengal, India |
-| Jun 2019 – Aug 2022 | B.Sc. in Geography; CGPA: 9.33/10.00 | Bankura Christian College, Bankura, West Bengal, India |
-| Jun 2017 – Mar 2019 | HSC – 12th Grade; 95.80% | Bankura Zilla School, Bankura, West Bengal, India |
-| Apr 2016 – Feb 2017 | SSC – 10th Grade; 90.43% | Bankura Christian Collegiate School, Bankura, West Bengal, India |
-
 | Year | Degree | Institution | Dissertation/Thesis |
 |------|--------|-------------|---------------------|
 | Jul 2024 – Dec 2024 | **M.Tech.** in Disaster Mitigation and Management | IIT Roorkee, India | *Dropout* |
