@@ -1,6 +1,6 @@
 ---
 title: Awards
-description: Awards and honors recognizing contributions to open-source software, research, and education.
+description: Awards and honors received by Krishnagopal Halder.
 keywords:
   - Awards
   - Honors
@@ -9,14 +9,7 @@ keywords:
 
 # Awards & Honors
 
-A selection of awards and honors recognizing contributions to open-source software, research, and education.
-
 | Year | Award |
 |------|-------|
-| 2026 | Outstanding Research Award, Example University |
-| 2025 | Best Paper Award, International Data Science Conference |
-| 2024 | Open Source Contributor Award, Open Source Foundation |
-| 2023 | Early Career Research Award, College of Sciences, Example University |
-| 2022 | Graduate Teaching Award, Department of Computer Science, Example University |
-| 2021 | NSF CAREER Award |
-| 2020 | Best Dissertation Award, Example University |
+| Mar 2024 | All India Rank (AIR) **36** in Geomatics Engineering Paper, GATE 2024, conducted by Indian Institute of Science, Bangalore |
+| Jun 2019 | Ranked among the **top 0.01 percentile** statewide among 777,000 candidates in the Higher Secondary Certificate (HSC) examination with a score of 479/500 |

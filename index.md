@@ -1,7 +1,7 @@
 ---
 title: Krishnagopal Halder
-subtitle: Open-Source Software Engineer & Data Scientist
-description: Krishnagopal Halder, Assistant Professor at Example University, builds open-source tools for data science and machine learning.
+subtitle: Research Scientist
+description: Krishnagopal Halder, Research Scientist at the Leibniz Centre for Agricultural Landscape Research (ZALF), working on geospatial data science, machine learning, and crop yield forecasting.
 # thumbnail: images/profile-thumbnail.webp
 ---
 
@@ -20,22 +20,23 @@ description: Krishnagopal Halder, Assistant Professor at Example University, bui
 :::{grid-item}
 :columns: 12 12 8 8
 
-**Software Engineer** | **Data Scientist**
+**Research Scientist**
 
-[Department of Computer Science](https://example.com/cs), Example University
+Working Group Multi-Scale Modelling and Forecasting (MSM),
+[Leibniz Centre for Agricultural Landscape Research (ZALF)](https://www.zalf.de)
 
-[123 Science Building](https://maps.google.com), Anytown, ST 12345
+Eberswalder Str. 84, 15374 Müncheberg, Brandenburg, Germany
 
-[jane.doe@example.com](mailto:jane.doe@example.com) | [example.com](https://example.com)
+[Krishnagopal.Halder@zalf.de](mailto:Krishnagopal.Halder@zalf.de) | +49 155 10743904
 
-**Research Interests:** Data Science, Machine Learning, Open-Source Software Development, Cloud Computing
+**Research Interests:** Geospatial Data Science, Machine Learning & Deep Learning, Crop Yield Forecasting, Earth Observation, Agricultural Sustainability
 
 [CV (PDF)](cv.pdf) |
 [Google Scholar](https://scholar.google.com) |
 [ORCID](https://orcid.org/0000-0000-0000-0000) |
 [LinkedIn](https://www.linkedin.com/in/username) |
 [GitHub](https://github.com/username) |
-[Twitter](https://twitter.com/username)
+[Medium](https://medium.com/@username)
 
 :::
 ::::
@@ -44,34 +45,21 @@ description: Krishnagopal Halder, Assistant Professor at Example University, bui
 
 ## Featured Projects
 
-::::{grid} 2 2 4 4
+::::{grid} 1 2 3 3
 
-:::{card}
-:link: https://mystmd.org
-![mystmd](pages/images/myst.webp)
-+++
-**MyST**
+:::{card} LL SYSTAIN
+:link: https://www.zalf.de
+Leibniz-Lab Systemic Sustainability — Biodiversity, Climate, Agriculture and Food within Planetary Boundaries. Funded by Leibniz Association.
 :::
 
-:::{card}
-:link: https://jupyterbook.org
-![jupyter-book](pages/images/jupyter-book.webp)
-+++
-**Jupyter Book**
+:::{card} SynPAI
+:link: https://www.zalf.de
+Synergising Process-Based and Machine Learning Models for Accurate and Explainable Crop Yield Prediction. Funded by BBSRC.
 :::
 
-:::{card}
-:link: https://jupyter.org
-![jupyter](pages/images/jupyter.webp)
-+++
-**Jupyter**
-:::
-
-:::{card}
-:link: https://python.org
-![python](pages/images/python.webp)
-+++
-**Python**
+:::{card} AgML
+:link: https://www.agml.org
+Machine Learning for Agricultural Modelling — open community initiative.
 :::
 
 ::::
@@ -84,37 +72,27 @@ description: Krishnagopal Halder, Assistant Professor at Example University, bui
 
 :::{card} Publications 📚
 :link: pages/research
-10+ Refereed Publications
+11 Refereed Publications
 :::
 
 :::{card} Software 💻
 :link: pages/software
-5+ Open-Source Projects
-:::
-
-:::{card} Teaching 🎓
-:link: pages/teaching
-5+ Courses Taught
+3 Active Projects
 :::
 
 :::{card} Talks 🎤
 :link: pages/talks
-10+ Invited Talks
+7+ Presentations & Workshops
 :::
 
 :::{card} Awards 🏆
 :link: pages/awards
-5+ Awards & Honors
-:::
-
-:::{card} Community 🌍
-:link: pages/services
-Professional & institutional service
+2 Awards & Honors
 :::
 
 :::{card} Blog ✍️
 :link: pages/blog
-Thoughts on research, software, and teaching
+Thoughts on research, software, and remote sensing
 :::
 
 :::{card} News 📰
@@ -128,9 +106,9 @@ Latest updates and milestones
 
 ## Recent News
 
-- **2026-04-01** - Launched personal website with MyST Markdown
-- **2026-03-15** - Published new paper on machine learning
-- **2026-02-01** - Released version 2.0 of open-source project
-- **2026-01-10** - Received Best Paper Award at Conference 2026
+- **2025-10-XX** — Oral presenter at *Sustainable Agriculture for Food Security and Global Health*, GBPUA&T, India
+- **2025-09-XX** — Workshop Moderator at *Tropentag 2025*, University of Bonn, Germany
+- **2025-04-XX** — Poster presenter at *EGU General Assembly*, Vienna
+- **2025-01-XX** — Started as Research Scientist at ZALF, Müncheberg, Germany
 
 [See all news →](pages/news)

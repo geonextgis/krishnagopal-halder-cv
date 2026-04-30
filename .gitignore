@@ -131,3 +131,5 @@ book-*/images/
 
 # Private / local files
 private/
+reference/
+CLAUDE.md
