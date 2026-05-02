@@ -56,12 +56,9 @@ site:
     style: custom.css
     # analytics_google: G-XXXXXXXXXX
     folders: true
-    # Injecting the neural background script
-    head: |
-      <script src="/neural-bg.js"></script>
-  actions:
-    - title: RSS
-      url: https://opengeos.org/myst-cv-template/rss.xml
+  # actions:
+  #   - title: RSS
+  #     url: https://opengeos.org/myst-cv-template/rss.xml
   template: book-theme
   parts:
     primary_sidebar_footer: ''
