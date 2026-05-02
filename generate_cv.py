@@ -287,7 +287,7 @@ def gen_education(about):
         year = strip_markdown(row.get("Year", ""))
         degree = escape_typst(row.get("Degree", ""))
         institution = escape_typst(row.get("Institution", ""))
-        dissertation = escape_typst(row.get("Dissertation/Thesis", ""))
+        dissertation = escape_typst(row.get("Grade", ""))
         lines.append(
             f"#resume-entry(\n"
             f"  title: [{degree}],\n"
