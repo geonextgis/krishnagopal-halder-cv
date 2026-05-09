@@ -7,7 +7,7 @@ authors:
     orcid: 0009-0005-9815-3017
     url: https://geonextgis.github.io/krishnagopal-halder-cv/
 description: A step-by-step guide to building a free, automated, and personalized academic research feed using Web of Science, arXiv, and GitHub Actions.
-thumbnail: ./images/2026-05-09-build-your-personalized-research-feed.jpg
+thumbnail: ./images/build-your-personalized-research-feed.jpg
 tags:
   - Research Feed
   - Web of Science
@@ -37,7 +37,7 @@ post walks through the parts that actually matter — what to edit, what
 to leave alone, and how to write queries that pull useful results
 instead of noise.
 
-![Thumbnail](./images/2026-05-09-build-your-personalized-research-feed.jpg)
+![Thumbnail](./images/build-your-personalized-research-feed.jpg)
 ---
 
 ## Why it is needed
