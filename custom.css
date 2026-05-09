@@ -212,6 +212,17 @@ html.dark .myst-card:hover {
   box-shadow: 0 8px 24px -4px rgba(34, 211, 238, 0.1) !important;
 }
 
+/* Suppress underline on card text/links during hover */
+.myst-card,
+.myst-card:hover,
+.myst-card a,
+.myst-card a:hover,
+.myst-card .myst-card-title,
+.myst-card:hover .myst-card-title,
+.myst-card:hover * {
+  text-decoration: none !important;
+}
+
 /* Card header / footer */
 .myst-card-header {
   background-color: rgba(248, 250, 252, 0.7) !important;
