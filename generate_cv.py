@@ -47,6 +47,11 @@ def escape_typst(text):
     if not text:
         return ""
 
+    # Unescape markdown backslash-escapes (e.g. \. \! \[ ) so they render
+    # as plain characters in the PDF. The escapes exist only to suppress
+    # the website's autolinker.
+    text = re.sub(r'\\([!"#$%&\'()*+,\-./:;<=>?@\[\\\]^_`{|}~])', r'\1', text)
+
     links = []
 
     def save_bare_url(m):
@@ -300,12 +305,12 @@ def gen_education(about):
 
 
 def gen_appointments(about):
-    """Generate Academic Appointments section from about.md."""
-    section = extract_section(about, "## Appointments")
+    """Generate Experiences section from about.md."""
+    section = extract_section(about, "## Experiences")
     rows = parse_table(section)
     if not rows:
         return ""
-    lines = ["= Academic Appointments\n"]
+    lines = ["= Experiences\n", "#v(0.5em)"]
     items = []
     for row in rows:
         period = escape_typst(row.get("Period", ""))
