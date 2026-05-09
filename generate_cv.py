@@ -304,7 +304,7 @@ def gen_education(about):
     return "\n\n".join(lines)
 
 
-def gen_appointments(about):
+def gen_experiences(about):
     """Generate Experiences section from about.md."""
     section = extract_section(about, "## Experiences")
     rows = parse_table(section)
@@ -662,7 +662,7 @@ def main():
     sections = [
         gen_preamble(),
         gen_education(about),
-        gen_appointments(about),
+        gen_experiences(about),
         gen_skills(about),
         gen_research_areas(research),
         gen_patents(research),
