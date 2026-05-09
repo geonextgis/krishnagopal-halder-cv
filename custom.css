@@ -212,15 +212,23 @@ html.dark .myst-card:hover {
   box-shadow: 0 8px 24px -4px rgba(34, 211, 238, 0.1) !important;
 }
 
-/* Suppress underline on card text/links during hover */
+/* Suppress underline on card text/links — covers the anchor card itself,
+   nested anchors, titles, and any descendant in default + hover states */
+a.myst-card,
+a.myst-card:hover,
+a.myst-card:focus,
 .myst-card,
 .myst-card:hover,
+.myst-card *,
+.myst-card *:hover,
 .myst-card a,
 .myst-card a:hover,
 .myst-card .myst-card-title,
-.myst-card:hover .myst-card-title,
-.myst-card:hover * {
+.myst-card:hover .myst-card-title {
   text-decoration: none !important;
+  text-decoration-line: none !important;
+  text-underline-offset: 0 !important;
+  background-image: none !important;
 }
 
 /* Card header / footer */
