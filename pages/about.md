@@ -39,6 +39,6 @@ Krishnagopal Halder is a Research Scientist in the Working Group Multi-Scale Mod
 ## Skills
 
 - **Languages:** Python, SQL, JavaScript, R
-- **Technologies:** Google Earth Engine, PyTorch, Scikit-learn, Git, GitHub
-- **Methodologies:** Machine Learning, Deep Learning, Geospatial Analysis, Image Processing, Statistical Analysis
-- **Softwares:** ArcGIS Pro, QGIS, Photoshop, Adobe Illustrator
+- **Machine Learning & AI:** PyTorch, scikit-learn, Machine Learning, Deep Learning, Computer Vision
+- **Geospatial & Remote Sensing:** Google Earth Engine, Geospatial Analysis, Remote Sensing, ArcGIS Pro, QGIS
+- **Development Tools:** Git, GitHub

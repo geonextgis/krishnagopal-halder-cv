@@ -328,7 +328,7 @@ def gen_skills(about):
     bullets = parse_bullets(section)
     if not bullets:
         return ""
-    lines = ["= Skills\n", "#v(0.5em)"]
+    lines = ["= Skills\n"]
     for b in bullets:
         m = re.match(r"\*\*([^*]+?):\*\*\s*(.+)", b)
         if not m:
