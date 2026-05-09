@@ -320,6 +320,28 @@ def gen_appointments(about):
     return "\n\n".join(lines)
 
 
+def gen_skills(about):
+    """Generate Skills section from about.md."""
+    section = extract_section(about, "## Skills")
+    if not section:
+        return ""
+    bullets = parse_bullets(section)
+    if not bullets:
+        return ""
+    lines = ["= Skills\n", "#v(0.5em)"]
+    for b in bullets:
+        m = re.match(r"\*\*([^*]+?):\*\*\s*(.+)", b)
+        if not m:
+            continue
+        label = m.group(1).strip()
+        values = [v.strip() for v in m.group(2).split(",") if v.strip()]
+        items = ", ".join(f'"{v}"' for v in values)
+        lines.append(
+            f'#resume-skill-item(\n  "{label}",\n  ({items}),\n)'
+        )
+    return "\n\n".join(lines)
+
+
 def gen_research_areas(research):
     """Generate Research Areas section from research.md."""
     section = extract_section(research, "## Research Areas")
@@ -641,6 +663,7 @@ def main():
         gen_preamble(),
         gen_education(about),
         gen_appointments(about),
+        gen_skills(about),
         gen_research_areas(research),
         gen_patents(research),
         gen_awards(awards),
