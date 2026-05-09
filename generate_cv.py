@@ -268,8 +268,8 @@ def gen_preamble():
   profile-picture: none,
   date: datetime.today().display(),
   language: "en",
-  paper-size: "us-letter",
-  accent-color: default-accent-color,
+  paper-size: "a4",
+  accent-color: rgb("#373152"),
   colored-headers: true,
   show-footer: true,
 )

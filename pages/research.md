@@ -15,13 +15,12 @@ Krishnagopal Halder's research advances geospatial data science and machine lear
 
 ## Research Areas
 
-- Geospatial Data Science
+- GeoAI
 - Machine Learning & Deep Learning
-- Crop Yield Forecasting (regional to continental scale)
-- Earth Observation (Sentinel, MODIS, SAR)
-- Agricultural Sustainability & Biodiversity
-- Landslide and Flood Susceptibility Modelling
-- Groundwater Potential Mapping
+- Computer Vision
+- Earth Observation
+- Agriculture
+- Crop Yield Forecasting
 
 ---
 
