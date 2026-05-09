@@ -269,7 +269,7 @@ def gen_preamble():
   date: datetime.today().display(),
   language: "en",
   paper-size: "a4",
-  accent-color: rgb("#373152"),
+  accent-color: default-accent-color,
   colored-headers: true,
   show-footer: true,
 )
@@ -379,7 +379,7 @@ def gen_awards(awards_text):
     rows = parse_table(awards_text)
     if not rows:
         return ""
-    lines = ["= Awards & Honors\n"]
+    lines = ["= Awards & Honors\n", "#v(0.5em)"]
     items = []
     for row in rows:
         year = strip_markdown(row.get("Year", ""))
