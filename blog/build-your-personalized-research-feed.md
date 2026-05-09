@@ -38,7 +38,6 @@ to leave alone, and how to write queries that pull useful results
 instead of noise.
 
 ![Thumbnail](./images/build-your-personalized-research-feed.jpg)
----
 
 ## Why it is needed
 
@@ -85,7 +84,7 @@ search terms I care about, scoped exclusively to the journals I trust.
 
 ## Five minutes of setup
 
-1. **Fork the repo** on GitHub.
+1. [**Fork the repo**](https://github.com/geonextgis/paperatlas) on GitHub.
 2. **Get a Web of Science API key** from
    [developer.clarivate.com](https://developer.clarivate.com/).
 3. **Add the key as a repository secret**:
