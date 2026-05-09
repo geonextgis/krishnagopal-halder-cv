@@ -18,10 +18,10 @@ import yaml
 from feedgen.feed import FeedGenerator
 
 # TODO: Update these with your site details
-SITE_URL = "https://example.com"
+SITE_URL = "https://geonextgis.github.io/krishnagopal-halder-cv/pages/blog/"
 SITE_TITLE = "Krishnagopal Halder's Blog"
 SITE_SUBTITLE = "Thoughts on data science, open-source software, and teaching."
-AUTHOR = {"name": "Krishnagopal Halder", "email": "jane.doe@example.com"}
+AUTHOR = {"name": "Krishnagopal Halder", "email": "Krishnagopal.Halder@zalf.de"}
 LANGUAGE = "en"
 
 FRONTMATTER_RE = re.compile(r"^---\s*\n(.*?)\n---\s*\n(.*)$", re.DOTALL)
