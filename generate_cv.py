@@ -50,7 +50,7 @@ def escape_typst(text):
     # Unescape markdown backslash-escapes (e.g. \. \! \[ ) so they render
     # as plain characters in the PDF. The escapes exist only to suppress
     # the website's autolinker.
-    text = re.sub(r'\\([!"#$%&\'()*+,\-./:;<=>?@\[\\\]^_`{|}~])', r'\1', text)
+    text = re.sub(r'\\([!"#$%&\'()*+,\-./:;<=>?@\[\\\]^_`{|}~])', r"\1", text)
 
     links = []
 
@@ -336,9 +336,7 @@ def gen_skills(about):
         label = m.group(1).strip()
         values = [v.strip() for v in m.group(2).split(",") if v.strip()]
         items = ", ".join(f'"{v}"' for v in values)
-        lines.append(
-            f'#resume-skill-item(\n  "{label}",\n  ({items}),\n)'
-        )
+        lines.append(f'#resume-skill-item(\n  "{label}",\n  ({items}),\n)')
     return "\n\n".join(lines)
 
 
