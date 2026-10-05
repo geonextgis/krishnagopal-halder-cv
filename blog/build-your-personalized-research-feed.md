@@ -41,29 +41,29 @@ instead of noise.
 
 ## Why it is needed
 
-Staying updated with the latest developments in your field is a constant, 
-time-consuming struggle. Like many researchers, I tried relying on the 
+Staying updated with the latest developments in your field is a constant,
+time-consuming struggle. Like many researchers, I tried relying on the
 standard platforms, but they all fall short in frustrating ways:
 
-- **Google Scholar Alerts are too noisy:** The signal-to-noise ratio is terrible. 
-  Set an alert for a specific term, and your inbox gets flooded with 
-  unreviewed university theses, patents, and tangentially related papers from 
-  obscure or predatory journals. There is no easy way to restrict the firehose 
+- **Google Scholar Alerts are too noisy:** The signal-to-noise ratio is terrible.
+  Set an alert for a specific term, and your inbox gets flooded with
+  unreviewed university theses, patents, and tangentially related papers from
+  obscure or predatory journals. There is no easy way to restrict the firehose
   to just the high-impact journals you actually care about.
-- **ResearchGate is a social network, not a feed:** It has become heavily 
-  optimized for engagement rather than strict relevance. Your feed is constantly 
-  cluttered with notifications like "Someone recommended your co-author's paper" 
-  or "Congratulate X on 100 citations," burying the actual new literature you 
-  need to see. 
-- **Publisher Email Alerts are fragmented:** Signing up for Table of Contents (TOC) 
-  alerts means managing a fragmented nightmare. You end up with 15 different, 
-  unstandardized emails a week from Elsevier, Springer, Nature, and Wiley, forcing 
-  you to manually scan through dozens of irrelevant papers just to find the one 
+- **ResearchGate is a social network, not a feed:** It has become heavily
+  optimized for engagement rather than strict relevance. Your feed is constantly
+  cluttered with notifications like "Someone recommended your co-author's paper"
+  or "Congratulate X on 100 citations," burying the actual new literature you
+  need to see.
+- **Publisher Email Alerts are fragmented:** Signing up for Table of Contents (TOC)
+  alerts means managing a fragmented nightmare. You end up with 15 different,
+  unstandardized emails a week from Elsevier, Springer, Nature, and Wiley, forcing
+  you to manually scan through dozens of irrelevant papers just to find the one
   article that fits your niche.
 
-I built this because I wanted a system that is deterministic, quiet, and 
-entirely under my control. No black-box recommendation algorithms, no 
-"suggested for you" social feeds, and no inbox clutter. Just the exact 
+I built this because I wanted a system that is deterministic, quiet, and
+entirely under my control. No black-box recommendation algorithms, no
+"suggested for you" social feeds, and no inbox clutter. Just the exact
 search terms I care about, scoped exclusively to the journals I trust.
 
 ---
